@@ -1,10 +1,12 @@
-const { app, BrowserWindow, ipcMain } = require('electron/main')
+const { Menu, app, BrowserWindow, ipcMain } = require('electron/main')
 const path = require('node:path')
+
+Menu.setApplicationMenu(null) // 隐藏菜单栏
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 800,
-    height: 600,
+    width: 880,
+    height: 660,
     resizable: false, // 禁止调整窗口大小
     webPreferences: {
       preload: path.join(__dirname, 'preload.js')

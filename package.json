@@ -1,6 +1,6 @@
 {
   "name": "form-client",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Joe &lt;leanbrown@live.cn&gt;",
   "description": "ID card verification",
   "main": "main.js",
