@@ -10,7 +10,7 @@
     "start": "electron-forge start",
     "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
     "package": "electron-forge package",
-    "wmake": "set DEBUG=electron-windows-installer* electron-forge make"
+    "wmake": "set DEBUG=electron-windows-installer* && electron-forge make"
   },
   "keywords": [],
   "license": "ISC",
