@@ -2,6 +2,10 @@ const { Menu, app, BrowserWindow, ipcMain } = require('electron/main')
 const path = require('node:path')
 const fs = require('node:fs')
 
+if (require('electron-squirrel-startup')) {
+  app.quit()
+}
+
 // 获取 package.json 的路径
 const packageJsonPath = path.join(__dirname, 'package.json')
 // 读取并解析 package.json 文件
