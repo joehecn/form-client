@@ -1,1 +1,0 @@
-import{_ as e}from"./MainLayout-BzAxt_Si.js";import{_ as n,j as _,f as c,e as a,ai as s,o as r}from"./index-C6CTqLNF.js";/* empty css                 */const p={};function i(m,u){const o=s,t=e;return r(),_(t,null,{default:c(()=>[a(o,{description:"Oops, Page Not Found!"})]),_:1})}const x=n(p,[["render",i]]);export{x as default};

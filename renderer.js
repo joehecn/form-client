@@ -4,6 +4,9 @@ information.innerText = `This app is using Chrome (v${window.versions.chrome()})
 const func = async () => {
   const response = await window.versions.ping()
   console.log(response) // 打印 'pong'
+
+  const appVersion = await window.versions.appVersionPing()
+  console.log(appVersion) // 打印 package.json 中的版本号
 }
 
 func()

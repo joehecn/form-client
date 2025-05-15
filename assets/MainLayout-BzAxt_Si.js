@@ -1,1 +1,0 @@
-import{_ as t,j as _,f as n,e as s,aj as c,ak as l,al as r,o as f}from"./index-C6CTqLNF.js";const i={};function u(e,p){const o=l,a=r;return f(),_(a,null,{default:n(()=>[s(o,null,{default:n(()=>[c(e.$slots,"default")]),_:3})]),_:3})}const m=t(i,[["render",u]]);export{m as _};

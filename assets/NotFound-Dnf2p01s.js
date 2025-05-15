@@ -1,0 +1,1 @@
+import{_ as e}from"./MainLayout-DxPQ40Sq.js";import{_ as n,j as _,f as c,e as a,ai as s,o as r}from"./index-Dv1-EzMm.js";/* empty css                 */const p={};function i(m,u){const o=s,t=e;return r(),_(t,null,{default:c(()=>[a(o,{description:"Oops, Page Not Found!"})]),_:1})}const x=n(p,[["render",i]]);export{x as default};
